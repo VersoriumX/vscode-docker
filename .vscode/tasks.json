@@ -28,6 +28,13 @@
                 "reveal": "never"
             },
             "group": "build"
+        },
+        {
+            "type": "npm",
+            "script": "ci-package",
+            "problemMatcher": [],
+            "label": "npm: ci-package",
+            "detail": "npm test && vsce package"
         }
     ]
 }
